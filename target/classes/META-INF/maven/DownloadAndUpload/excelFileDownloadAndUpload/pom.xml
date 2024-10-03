@@ -12,8 +12,9 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.release>17</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-17</project.build.sourceEncoding>
+      <maven.compiler.source>17</maven.compiler.source>
+      <maven.compiler.target>17</maven.compiler.target>
   </properties>
 
   <dependencyManagement>
@@ -55,29 +56,7 @@
 <version>7.1.0</version>
 </dependency>
   </dependencies>
-<profiles>
-     <profile>
-        <id>CucumberTest</id>
-        
-            <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
-      <plugins>
-       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.5.0</version>
-        <configuration>
-          <includes>
-            <include>**/UploadDownload.java</include>
-          </includes>
-        </configuration>
-      </plugin>
-      </plugins>
-    </pluginManagement>
-    </build>
-      
-     </profile>
-  </profiles>
+
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
