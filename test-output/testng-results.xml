@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-29T22:16:11 IST" name="Default suite" finished-at="2024-09-29T22:16:26 IST" duration-ms="14531">
+    <groups>
+    </groups>
+    <test started-at="2024-09-29T22:16:11 IST" name="Default test" finished-at="2024-09-29T22:16:26 IST" duration-ms="14531">
+      <class name="DownloadAndUpload.excelFileDownloadAndUpload.UploadDownload">
+        <test-method signature="getUploadDownload()[pri:0, instance:DownloadAndUpload.excelFileDownloadAndUpload.UploadDownload@290222c1]" started-at="2024-09-29T22:16:11 IST" name="getUploadDownload" finished-at="2024-09-29T22:16:26 IST" duration-ms="14493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUploadDownload -->
+      </class> <!-- DownloadAndUpload.excelFileDownloadAndUpload.UploadDownload -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
