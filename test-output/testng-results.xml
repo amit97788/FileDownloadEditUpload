@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-29T22:16:11 IST" name="Default suite" finished-at="2024-09-29T22:16:26 IST" duration-ms="14531">
+  <suite started-at="2024-10-03T21:01:21 IST" name="Suite" finished-at="2024-10-03T21:01:34 IST" duration-ms="13707">
     <groups>
     </groups>
-    <test started-at="2024-09-29T22:16:11 IST" name="Default test" finished-at="2024-09-29T22:16:26 IST" duration-ms="14531">
+    <test started-at="2024-10-03T21:01:21 IST" name="Test" finished-at="2024-10-03T21:01:34 IST" duration-ms="13707">
       <class name="DownloadAndUpload.excelFileDownloadAndUpload.UploadDownload">
-        <test-method signature="getUploadDownload()[pri:0, instance:DownloadAndUpload.excelFileDownloadAndUpload.UploadDownload@290222c1]" started-at="2024-09-29T22:16:11 IST" name="getUploadDownload" finished-at="2024-09-29T22:16:26 IST" duration-ms="14493" status="PASS">
+        <test-method signature="getUploadDownload()[pri:0, instance:DownloadAndUpload.excelFileDownloadAndUpload.UploadDownload@290222c1]" started-at="2024-10-03T21:01:21 IST" name="getUploadDownload" finished-at="2024-10-03T21:01:34 IST" duration-ms="13658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUploadDownload -->
       </class> <!-- DownloadAndUpload.excelFileDownloadAndUpload.UploadDownload -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
